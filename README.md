@@ -10,8 +10,10 @@ Start by taking a loom to the UML Class diagram in the uml folder.
 Try to Understand the Hierarchy between classes.
 Use the project structure & directories to grasp what every package's purpose is.
 
-- To run ans test the project, you need to run application/application.py. That is the execution entry point.
+- To run and test the project, you need to run application/application.py. That is the execution entry point.
   But first, there are a few things to do and understand (do not just bluntly run the app -it will mostly not work)
+  
+#### PRE-REQUISITES ####
 
 - install libraries in requirements.txt (SQLAlchemy, SQLite). *(You may need a pip install or two on top of that)*
 
@@ -24,6 +26,10 @@ Use the project structure & directories to grasp what every package's purpose is
   Its content is important and indispensable for comprehension. 
   You will see that, that is where the SQL engine switching logic takes place.
 
+#### TODO ####
 
+- When you're all set, and that both your datbases and User tables are successfully tested, you may proceed to the application
+
+- Create users, play around with the API, switch SQL engines, and check/assert that the content of the User Tables changes accordingly.
 
 
