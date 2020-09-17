@@ -30,6 +30,6 @@ Use the project structure & directories to grasp what every package's purpose is
 
 - When you're all set, and both your datbases and User tables are successfully tested, you may proceed to the application
 
-- Create users, play around with the API, switch SQL engines, and check/assert that the content of the User Tables changes accordingly.
+- Create users, udpate them, play around with the API, switch SQL engines, and check/assert that the content of the User Tables changes accordingly.
 
 
