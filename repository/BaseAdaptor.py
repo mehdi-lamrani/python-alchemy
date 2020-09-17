@@ -11,3 +11,11 @@ class BaseAdaptor(object):
     def save(self, entity):
         raise NotImplemented
 
+
+###################################################################################
+#                           QUESTION
+#
+#           WHAT IS THE PURPOSE OF THIS CLASS ???
+#
+###################################################################################
+

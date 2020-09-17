@@ -5,13 +5,13 @@ import sqlalchemy
 
 SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://user:password@host/dbname'
 
-# Test if it works
+# Test your donnection to your MySQL/MariaDB instance
 engine = sqlalchemy.create_engine(SQLALCHEMY_DATABASE_URI, echo=True)
 print(engine.table_names())
 
 ###################################################################################################################################################
 #                  CREATE A MYSQL/MARIADB DATABASE
-
+#
 # MAC :
 # brew install mariadb
 # sudo mysql -u root
