@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
-
 from repository.BaseAdaptor import BaseAdaptor
-from repository.EntityNotFoundException import EntityNotFoundException
-from repository.UnexpectedEntityException import UnexpectedEntityException
 
 from . import get_session
 
@@ -30,3 +26,11 @@ class SqlAlchemyAdaptor(BaseAdaptor):
 
         self.session.add(entity)
         self.session.commit()
+
+
+class EntityNotFoundException(BaseException):
+    pass
+
+
+class UnexpectedEntityException(BaseException):
+    pass

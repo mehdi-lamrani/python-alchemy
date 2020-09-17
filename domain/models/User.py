@@ -8,9 +8,9 @@ class User(repository.Base):
     __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    name = Column(String)
-    fullname = Column(String)
-    nickname = Column(String)
+    name = Column(String(32))
+    fullname = Column(String(32))
+    nickname = Column(String(32))
 
     def __repr__(self):
         return "<User(name='%s', fullname='%s', nickname='%s')>" % (
