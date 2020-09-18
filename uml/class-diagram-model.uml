@@ -13,15 +13,15 @@
   </nodes>
   <notes />
   <edges>
+    <edge source="object" target="typing.Hashable">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
     <edge source="repository.BaseAdaptor.BaseAdaptor" target="object">
       <point x="0.0" y="-26.0" />
       <point x="200.0" y="179.0" />
       <point x="344.0" y="179.0" />
       <point x="-20.0" y="26.0" />
-    </edge>
-    <edge source="object" target="typing.Hashable">
-      <point x="0.0" y="-26.0" />
-      <point x="0.0" y="26.0" />
     </edge>
     <edge source="repository.SqlAlchemyAdaptor.SqlAlchemyAdaptor" target="repository.BaseAdaptor.BaseAdaptor">
       <point x="0.0" y="-26.0" />
@@ -42,10 +42,8 @@
       <point x="20.0" y="26.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.7317073170731707" x="783.6" y="314.05" />
-  <SelectedNodes>
-    <node>domain.models.User.User</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.739593505859375" x="317.99999999999994" y="229.99999999999994" />
+  <SelectedNodes />
   <Categories />
 </Diagram>
 

@@ -8,7 +8,7 @@ class ENGINE:
     MYSQL = "mysql+mysqldb://admin:admin@localhost:3306/users_db"
 
 
-engine = create_engine(ENGINE.MYSQL)
+engine = create_engine(ENGINE.SQLITE)
 
 
 def get_session():
